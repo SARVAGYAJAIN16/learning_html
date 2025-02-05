@@ -1,0 +1,36 @@
+Learn about image tag and with the help of area and map tag .
+output: It have two images, in first image it open the website of amazon while 
+        other image is use by map and area tag with the help of coordinate attribute,
+        it do that its half part is not clickable but rest is clickable open the ajio website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=155259813593&hvpone=&hvptwo=&hvadid=674893540034&hvpos=&hvnetw=g&hvrand=16026469461578991754&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9302218&hvtargid=kwd-64107830&hydadcr=14452_2316413&gad_source=1" target="_blank">
+    <img src="firstimage.jpg"
+    alt="image not found"
+    usemap="#magic"
+    width ="500"
+    length="300"
+    >
+</a>
+<img src="firstimage.jpg"
+alt="image not found"
+usemap="#magic"
+width ="500"
+length="300"
+>
+<map name="magic">
+    <area
+       shape="rect"
+       coords="0,0,250,300"
+       href="https://www.ajio.com/s/uhp-upto-65-percent-off-5684-46311?&utm_source=google&utm_medium=cpc&utm_campaign=GSB_Brand_August2019&gad_source=1&gclid=Cj0KCQiAkoe9BhDYARIsAH85cDNyBYFXKHFRnAqZCPJy3XWcCsq5oCX2WomVk87zPHuTXbwSeydjjnkaAo91EALw_wcB" target="_blank">
+
+</map>
+    </body>
+</body>
+</html>
