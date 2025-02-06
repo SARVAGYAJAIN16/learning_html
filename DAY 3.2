@@ -1,0 +1,77 @@
+1-> Create the time table for practise. using <table>,<td>,<tr>,<thead>,rowspan,colspan,style(css),<th>,padding tag.
+code  :->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            text-align:center;
+            border:1px solid black;
+            border-collapse: collapse;
+
+        }
+        th,tr,td{
+            border:1px solid black;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead >
+            <tr>
+            <th colspan ="7">TIME TABLE</th>
+            </tr>
+        </thead>
+    
+            <tbody>
+             <tr>   
+            <th rowspan="6">Hours</th>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th>SAT</th>
+            </tr>
+            <tr>  
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Science</td>
+                <td>Science</td>
+                <td>Science</td>
+                <td>Science</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td colspan="7">Lunch</td>
+            </tr>
+            <tr>
+                <td>SST</td>
+                <td>SST</td>
+                <td>SST</td>
+                <td>SST</td>
+                <td>SST</td> 
+                <td rowspan="2">Games</td> <!- 2 because in two row only we want.-->
+            </tr>
+            <tr>
+                <td>Cs</td>
+                <td>Cs</td>
+                <td>Cs</td>
+                <td>Cs</td>
+                <td>Cs</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
