@@ -1,0 +1,56 @@
+1 Learn about HTML table tag.
+2 -> here understand about <table>,<tbody>,<thead>,<th>,<td>,<tr> element.
+  -> understand the use of Colspan: It make entire column is single row.(acc to our need)
+                           Rowspan: It make entire row is sigle column.
+3 -> understand about style tag like padding,border.   
+4 -> made a table.
+ code: 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+              text-align:center;
+              border:1px solid black;
+              border-collapse: collapse;
+        }
+        tr,th,td{
+            border:1px solid black;
+            padding:10px;
+        }
+    </style> 
+</head>
+<body>
+    <h1>HTML TABLE Tag</h1>
+    <table>                     <!- use of border is old way so we use style -->
+ <!- <table border="1"> -->   
+        <thead>                 <!- this is for first row -->  
+            <tr>
+            <th>Username</th>
+            <th>Password</th>
+            </tr>
+        </thead>
+        <tbody>                 <!- this is start from 2 row -->
+            <tr>
+                <td>Shayam</td>
+                <td>xyz_@</td>
+            </tr>
+            <tr>
+                <td>Ram</td>
+                <td>abs-@</td>
+            </tr>
+            <tr>
+                <td>Sohan</td>
+                <td>shg_@</td>
+            </tr>
+            <tr>
+                <td colspan="2">data complete</td>
+            </tr>
+        </tbody>                    
+    </table>
+    
+</body>
+</html>
