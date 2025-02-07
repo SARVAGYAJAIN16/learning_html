@@ -1,0 +1,19 @@
+ # Understand about Semantic and Non-Semantic element.
+ -> bascially it is a element with a meaning which describes the meaning of both the browser and the developer.
+ -> Semantic structure have header,navigation, section,article,aside,footer.
+ # Understand about HTML meta tag.
+  -> It tells the metadata about a webpage
+  -> It help web services to gather information about the page.
+  code:
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+   This line tells that without "viewport" the website cannot be responsive and "width=device-width ,initial-scale=1.0"
+   it means that acc to screen or desktop it will adjust its width acc to the need.
+   #Understand about HTML SEO(search engine optimization).
+   -> It tells about high quality content.
+   -> keyword research.
+   ->Descriptive Titles.
+   ->Heading tag.
+   --------------------------------------------------------------------------------------------------
+                            ............ HTML Completed ................
+   --------------------------------------------------------------------------------------------------                 
