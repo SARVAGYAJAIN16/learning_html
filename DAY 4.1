@@ -1,0 +1,123 @@
+Learn about HTML form tag and its attributes in deep.
+
+The <form> tag is used to create an HTML form for user input. 
+The <input> HTML element is used to create interactive controls for web-based forms to accept data from the user. We must write inside the tag.
+
+                                                  HTML Types of inputs in HTML Form
+ attributes: 
+ 1: Text Input (<input type="text" />): Allows users to enter a single line of
+text. 
+
+2: Password Input (<input type="password" />): Hides the entered text for
+secure password entry. 
+
+3: Email Input (<input type="email" />): Validates and
+formats input as an email address. 
+
+4:Number Input (<input type="number" />):
+Accepts numeric input and provides increment/decrement controls. 
+
+5:Radio Buttons (<input type="radio" />): Allows users to choose a single option from a group of options. 
+
+6: Checkboxes (<input type="checkbox" />): Allows users to select
+multiple options. 
+
+7: Dropdowns (<select> and <option>): Provides a list of options for users to choose from.
+  
+8: <datalist> Provide a predefined list of options for autocomplete suggestions.
+
+9: Textarea (<textarea>): Allows users to enter multiple lines of text.
+
+10:File Upload (<input type="file">):  Lets users choose and upload files from their device.
+
+11: Submit Button (<input type="submit">):  Submits the form data to the server. 
+
+code:- 
+      output: created a html form using various attributes.......  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" 
+            name="email" 
+            required   
+            autocomplete="off"
+            size="30"
+            value="sar@email.com"   
+            readonly
+            disabled
+        </div>
+         <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="password here">
+         </div>   
+        <div>
+            <label for="number">Number</label>
+            <input type="number" id="number">
+        </div>
+        <div>
+            <label for="number">Max Subject</label>
+            <input type="number" id="number" max="5" min="0" value="1">
+        </div>
+        <div>
+            <label for="gender">Gender</label> <!-- In radio any one can we selected with the help of 'name'-->
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender"value="female">Female  <!-- value data is stored in database-->
+        </div>
+        <div>
+            <label for="hobbies">Hobbies</label>  <!-- In checkbox you can tick both-->
+            <input type="checkbox" name="Interst" value="music">music
+            <input type="checkbox" name="Interst" value="cricket">cricket
+        </div>
+        <div>
+            <label for="country">Fav country</label>
+            <select type="country" id="country">      <!-- select is used here-->
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="INDIA">INDIA</option>
+            </select>
+        </div>
+        <div>
+            <label for="country"> Select the country :</label>
+            <input type="country" id="country" name="country" list="countries">
+            <datalist id="countries">
+                <option value="USA">USA</option>
+                <option value="CHINA">CHINA</option>
+                <option value="NEPAL">NEPAL</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="comments">Message me</label>
+            <textarea
+              name="comments"
+              rows="4"
+              cols="100"
+              placeholder="Enter comments here"></textarea>
+        </div>
+        <div>
+        <label for="file">upload file</label>         <!-- upload file-->
+        <input type="file" name="file">
+        </div>
+        <div>
+            <label for="submit"></label>
+            <input type="submit" name="submit">
+         </div>
+         <!-- or another way-->
+         <div>
+            <button type="submit">Submit</button>
+         </div>
+    </form>
+</body>
+</html>
