@@ -1,0 +1,65 @@
+Created a website of mini_cars company.(minor project) 
+Code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini_Car_project</title>
+</head>
+<body>
+    <header>
+        <div> 
+            <a href="https://www.mini.com/en_MS/home.html" target="_blank">
+            <img src="./vecteezy_mini-brand-logo-symbol-black-design-german-car-automobile_20499028.jpg" 
+            width="750"
+            height="200"
+            alt="Logo of mini_car project">
+            </a>
+        </div>
+        <nav>
+            <ul style="list-style-type:none; display:flex; gap:120px" >
+                <li><a href="https://www.mini.com/en_MS/home/people.html"target="_blank">PEOPLE.</a></li>
+                <li><a href="https://www.mini.com/en_MS/home/planet.html"target="_blank">PLANET.</a></li>
+                <li><a href="https://www.mini.com/en_MS/home/progress.html"target="_blank">PROGRESS.</a></li>
+                <li><a href="https://www.mini.com/en_MS/home/lifestyle.html"target="_blank">LIFESTYLE.</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+        <h1 align="center">Welcome Mini_Cars</h1>
+        
+        <p align="center">The new MINI family is here! With this next generation we establish our full commitment to<br> electrification and the bolstered intention to be kinder to the environment. In parallel, our new<br> vehicles feature the design language we call “Charismatic Simplicity”, rooted in a renewed <br>focus on the essentials. For this, and many more insights into the world of the new MINI family,<br> you are exactly where you need to be.</p>
+        <button align="center">Visit our store</button>
+         <a href="https://www.berlin.mini/de/home" target="_blank"></a>
+        <button>call us</button>
+        <a href="#" target="_blank"></a>
+        <article>
+            <h2 align="center">HERITAGE</h2>
+            <p align="center">
+                During the Suez Crisis at the end of the 1950s, people became aware of how finite resources<br> are for the first time. The fear of an oil crisis with soaring costs gave engineer Alec Issigonis an<br> idea: he took a napkin and sketched an economical compact car that conserved resources. The<br> Mini developed into a cult car over the years, and has many prominent fans to this day. The car<br> cuts a fine figure on the race track, too – its go-kart feel is still legendary today. Here you can<br> read all about our heritage.
+            </p>
+        </article>
+        <aside>
+            <h3 align="center">Check Out New Cars</h3>
+            <p align ="center">Made with new hitech technology with EV model </p>
+            <img src="./ivan-didenko-xrYcRZnbS88-unsplash.jpg"
+            margin-left="auto"
+            margin-right="auto"
+             width="100%"
+             height="500">
+        </aside>
+    </section>
+    </main>   
+    <footer>
+       <p align="center">&copy; All right reserved 2025</p>
+       <div style="text-align:center;">
+       <img src="./vecteezy_mini-brand-logo-symbol-black-design-german-car-automobile_20499028.jpg" alt="mini_car logo"
+       width ="70"
+       height="70">
+       </div>     
+    </footer> 
+</body>
+</html>
+
